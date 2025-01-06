@@ -5,6 +5,7 @@ import { productRoutes } from './routes/products.js';
 import { categoryRoutes } from './routes/categories.js';
 import { brandRoutes } from './routes/brands.js';
 import { importRoutes } from './routes/importRoutes.js';
+import { exportRoutes } from './routes/exportRoutes.js';
 
 const app = express();
 app.use(cors());
@@ -14,6 +15,7 @@ productRoutes(app);
 categoryRoutes(app);
 brandRoutes(app);
 importRoutes(app);
+exportRoutes(app);
 
 app.get('/', (req, res) => {
   res.send('Hello from Express!');
