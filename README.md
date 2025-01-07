@@ -35,9 +35,15 @@ This backend repository can be interacted with either Angular or React JS fronte
 
 Note: Following are the features which will be implemnetd in future version.
 1. Ability to create different channels
-2. Publish the product catalogs into various channels with different requirements
+2. Publish the product catalogs across various channels with different requirements
 3. Auto classification of products based on configured criteria
 
+### **Key Highlights**
+- Developed modular backend services with REST APIs for scalability and performance.
+- Built dynamic, user-friendly frontends to handle catalog interactions using Angular and React.
+- Leveraged relational (PostgreSQL) and NoSQL (MongoDB) databases for flexibility in data storage.
+- Demonstrated full-stack expertise by designing, implementing, and deploying two parallel technology stacks.
+  
 ---
 
 ## **Getting Started**
